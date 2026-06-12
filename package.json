@@ -9,7 +9,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsup",
-    "start": "tsx ./src/main.ts",
+    "start": "node dist/main.js",
     "start:prod": "node dist/main",
     "dev:server": "tsx watch ./src/main.ts",
     "test": "tsx watch ./test/all.test.ts",
